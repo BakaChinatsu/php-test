@@ -7,9 +7,10 @@
 <form action="test_01.php" name="form1" method="get">
     请输入一段话：<input type="text" name="text1" /> <br/>
     <h5>请输入开始及结束的位置</h5>
-    开始位置：0~ <input type="text" name="input1" />
+    开始位置：<input type="text" name="input0" >
+    结束位置： <input type="text" name="input1" />
     <br/>
-    <input type="submit" value="Submit" />
+    <input type="submit" value="执行" />
   </form>
  </body>
 </html>

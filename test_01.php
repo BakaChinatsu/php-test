@@ -6,8 +6,10 @@
  * Time: 22:14
  */
 $varString = $_GET['text1'];
-$varA1 = $_GET['input1'];
-$firstSub = substr($varString, 0,$varA1);
+$varA1 = $_GET['input0'];
+$varA01 = $varA1 - 1;
+$varA2 = $_GET['input1'];
+$firstSub = substr($varString, $varA01,$varA2);
 $secondSub = substr($varString, 18);
 echo $firstSub." ".$secondSub;
 ?>
