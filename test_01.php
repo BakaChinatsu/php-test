@@ -10,6 +10,7 @@ $varA1 = $_GET['input0'];
 $varA01 = $varA1 - 1;
 $varA2 = $_GET['input1'];
 $firstSub = substr($varString, $varA01,$varA2);
-$secondSub = substr($varString, 18);
-echo $firstSub." ".$secondSub;
+//$secondSub = substr($varString, 18);
+//echo $firstSub." ".$secondSub;
+echo $firstSub ;
 ?>
