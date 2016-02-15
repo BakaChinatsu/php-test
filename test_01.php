@@ -5,6 +5,7 @@
  * Date: 2016/2/3
  * Time: 22:14
  */
+//Get the input -> text1
 $varString = $_GET['text1'];
 $varA1 = $_GET['input0'];
 $varA01 = $varA1 - 1;
